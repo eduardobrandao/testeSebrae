@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./estile/global.module.css";
 
 function App() {
   const [count, setCount] = useState(0);
