@@ -1,10 +1,13 @@
 import { useState } from "react";
 import "./estile/global.module.css";
+import { Tabela } from "./pages/Tabela";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Tabela />
+    </div>
+  );
 }
 
 export default App;
